@@ -1,0 +1,53 @@
+# ---- PYTHON ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+*.tmp
+
+# ---- ENVIRONMENTS ----
+.env
+.venv
+venv/
+env/
+*.conda
+*.yml
+
+# ---- DATA ----
+data/01_raw/*
+!data/01_raw/.gitkeep
+
+data/02_preprocessed/*
+!data/02_preprocessed/.gitkeep
+
+data/03_models/*
+!data/03_models/.gitkeep
+
+# ---- JUPYTER ----
+.ipynb_checkpoints/
+*.ipynb~ 
+*.nbconvert.ipynb
+
+# ---- VS CODE ----
+.vscode/
+.history/
+*.code-workspace
+
+# ---- OS FILES ----
+.DS_Store
+Thumbs.db
+
+# ---- CACHE ----
+.cache/
+logs/
+*.log
+
+# ---- CONFIG PRIVATE ----
+config/local.yaml
+
+# ---- PACKAGES ----
+*.egg-info
+dist/
+build/
