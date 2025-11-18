@@ -1,5 +1,4 @@
-```markdown
-# 🧠 ADALINE Sentiment Classifier — Machine Learning From Scratch
+# ADALINE Sentiment Classifier — Machine Learning From Scratch
 
 This repository implements an **ADALINE (Adaptive Linear Neuron)** classifier from scratch using Python and NumPy.  
 The model is trained on the **Sentiment140** dataset, which contains 1.6M tweets labeled as positive or negative.
@@ -15,7 +14,7 @@ The purpose of this project is to build a fully manual, interpretable machine le
 
 ---
 
-## 🚀 Project Objectives
+## Project Objectives
 
 - Implement ADALINE using gradient descent (no ML frameworks).
 - Build a modular, production-style ML architecture.
@@ -25,7 +24,7 @@ The purpose of this project is to build a fully manual, interpretable machine le
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 
@@ -65,7 +64,7 @@ project-root/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 conda env create -f environment.yml
@@ -74,7 +73,7 @@ conda activate adaline-env
 
 ---
 
-## 🔧 Configuration (Pydantic + YAML)
+## Configuration (Pydantic + YAML)
 
 Configuration is defined in:
 
@@ -104,7 +103,7 @@ model:
 
 ---
 
-## 🧼 Text Preprocessing
+## Text Preprocessing
 
 The preprocessing pipeline includes:
 
@@ -118,7 +117,7 @@ All behavior is controlled by configuration flags in `local.yaml`.
 
 ---
 
-## 🧪 Dataset Sampling
+## Dataset Sampling
 
 Generate a clean, balanced dataset:
 
@@ -135,7 +134,7 @@ This script:
 
 ---
 
-## 🧠 Model Training (ADALINE)
+## Model Training (ADALINE)
 
 Train the classifier:
 
@@ -162,7 +161,7 @@ Loss (first 5 epochs): [1.91, 1.91, 1.90, ...]
 
 ---
 
-## 🔮 Inference
+## Inference
 
 Run prediction script:
 
@@ -190,7 +189,7 @@ Output:
 
 ---
 
-## 📓 Notebook Included
+## Notebook Included
 
 The notebook:
 
@@ -210,7 +209,7 @@ Contains:
 
 ---
 
-## 🧩 Best Practices Used
+## Best Practices Used
 
 * Clean modular architecture (inspired by ML production templates)
 * Pydantic-validated configuration
@@ -221,7 +220,7 @@ Contains:
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 
 * Add TF-IDF vectorization
 * Introduce PCA for dimensionality reduction
@@ -232,15 +231,10 @@ Contains:
 
 ---
 
-## 🏆 Author
+## Author
 
 **Juan David Jaramillo**
 Data Scientist · ML Engineer
 Focused on: ML systems, NLP, fraud detection, AI for contact centers, GCP & Generative AI.
 
 ---
-
-```
-
-
-```
